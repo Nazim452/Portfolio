@@ -22,6 +22,7 @@ import { docker} from "../../assets/index";
 import { tc} from "../../assets/index";
 import { os} from "../../assets/index";
 import { c} from "../../assets/index";
+import { jira} from "../../assets/index";
 
 
 
@@ -58,6 +59,7 @@ const Skills = () => {
             <SkillTemplate img={docker} name={"Docker"}/>
             <SkillTemplate img={git} name={"Git"}/>
             <SkillTemplate img={github} name={"Github"}/>
+            <SkillTemplate img={jira} name={"Jira"}/>
             <SkillTemplate img={system} name={"System Desing"}/>
             <SkillTemplate img={os} name={"Oerating System"}/>
             <SkillTemplate img={dbms} name={"DBMS"}/>

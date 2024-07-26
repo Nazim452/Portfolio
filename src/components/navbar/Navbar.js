@@ -47,9 +47,7 @@ const Navbar = () => {
               <div>
                 <img className="w-32" src={logo} alt="logo" />
                 <p className="text-sm text-gray-400 mt-2">
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Earum soluta perspiciatis molestias enim cum repellat, magnam
-                  exercitationem distinctio aliquid nam.
+                I am passionate about using technology to solve real world problem and create innovative solutions. Crafting seamless user experience and delivery high quality scalable solution. Continiously staying updated with the latest web technologies and eager to learn new technologies.
                 </p>
               </div>
               <ul className="flex flex-col gap-4">

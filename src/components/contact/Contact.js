@@ -1,6 +1,7 @@
 import React,{useState} from 'react'
 import Title from '../layouts/Title';
 import ContactLeft from './ContactLeft';
+import axios from 'axios';
 
 const Contact = () => {
   const [username, setUsername] = useState("");
@@ -34,6 +35,16 @@ const Contact = () => {
     } else if (message === "") {
       setErrMsg("Message is required!");
     } else {
+      const data = {
+        Name:username,
+        Number:phoneNumber,
+        Email:email,
+        Subject:subject,
+        Message:message,
+      }
+      axios.post('https://sheet.best/api/sheets/89c77f52-23a1-4259-ac70-fb06ae7102d6',data).then((res)=>{
+        // console.log(res);
+        
       setSuccessMsg(
         `Thank you dear ${username}, Your Messages has been sent Successfully!`
       );
@@ -43,6 +54,11 @@ const Contact = () => {
       setEmail("");
       setSubject("");
       setMessage("");
+      })
+
+
+
+
     }
   };
   return (

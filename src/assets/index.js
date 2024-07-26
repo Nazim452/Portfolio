@@ -31,9 +31,11 @@ import docker from './images/skill/skills/docker.png'
 import tc from './images/skill/skills/tailwindcss.webp'
 import c from './images/skill/skills/c.jpg'
 import css from './images/skill/skills/css.webp'
+import jira from './images/skill/skills/jira.png'
 
 export {
   material,
+  jira,
   react,
   tc,
   docker,
