@@ -32,6 +32,7 @@ import tc from './images/skill/skills/tailwindcss.webp'
 import c from './images/skill/skills/c.jpg'
 import css from './images/skill/skills/css.webp'
 import jira from './images/skill/skills/jira.png'
+import testinomialThree from './images/testmonial/testthree.jpg'
 
 export {
   material,
@@ -67,5 +68,6 @@ export {
   quote,
   ProjectFour,
   contactImg,
-  bootstrap
+  bootstrap,
+  testinomialThree
 };

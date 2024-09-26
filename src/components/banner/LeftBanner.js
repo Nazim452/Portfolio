@@ -5,7 +5,7 @@ import { SiTailwindcss, SiFigma, SiNextdotjs,SiLeetcode,SiGeeksforgeeks,SiNodedo
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Full Stack Web Developer.", "MERN Stack Developer.", "Professional Coder."],
+      words: ["DevOps Engineer.", "MERN Stack Developer.", "Full Stack Web Developer."],
       loop: true,
       typeSpeed: 40,
       deleteSpeed: 30,
@@ -15,11 +15,11 @@ const LeftBanner = () => {
     <div className="w-full lgl:w-1/2 flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
+        <h1 className="text-5xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Nazim</span>
         </h1>
-        <h2 className="text-4xl font-bold text-white">
-          a <span>{text}</span>
+        <h2 className="lg:text-4xl font-bold text-white sm:text-[22px]">
+        a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
