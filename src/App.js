@@ -19,7 +19,7 @@ function App() {
         <div className="p-2 bg-blue-600 rounded-lg shadow-lg sm:p-3">
             <div className="flex flex-wrap items-center justify-between">
            
-                <a target="_blank"  href={"https://drive.google.com/file/d/1JzX4xx5PYvMhc_4PVMXR4L67Ush2Z2EB/view?usp=sharing"} className="flex items-center flex-1 w-0" >
+                <a target="_blank"  href={"https://drive.google.com/file/d/10AtEx5-Ub3pwvofz6eCOVFYrIy4DI-46/view?usp=sharing"} className="flex items-center flex-1 w-0" >
                    
 
                     <p className="ml-3 font-medium tracking-wide text-white	 truncate">
